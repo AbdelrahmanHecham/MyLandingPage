@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full Stack Developer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <style>
+    body.dark-mode {
+      background-color: #121212;
+      color: #ffffff;
+    }
+
+    .dark-mode .navbar,
+    .dark-mode .footer {
+      background-color: #1f1f1f;
+    }
+
+    .dark-mode .card {
+      background-color: #2a2a2a;
+      color: #ffffff;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Abdelrahman Hesham</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <button id="darkModeToggle" class="btn btn-secondary">Toggle Dark Mode</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="hero" class="jumbotron text-center">
+    <div class="container">
+      <img class="rounded" src="https://avatars.githubusercontent.com/u/95289688?s=400&u=071bcb691e1fed23129955a8f7b39a0425bd473e&v=4" alt="MyPhoto">
+      <h1 class="display-4">Abdelrahman Hesham Salah</h1>
+      <h2 class="lead">Full Stack Developer</h2>
+      <a href="#contact" class="btn btn-primary btn-lg">Hire Me</a>
+    </div>
+  </section>
+
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">About Me</h2>
+      <p>
+        Hi, I'm Abdelrahman Hesham, a passionate Full Stack Developer. I have a strong foundation in front-end and back-end technologies, including HTML, CSS, JavaScript, Node.js, C, and databases like MySQL and MongoDB.
+      </p>
+      <p>
+        I love solving problems and creating efficient, scalable solutions. I'm a quick learner and enjoy keeping up with the latest trends in web development. My goal is to deliver high-quality software that meets the client's requirements and provides a great user experience.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Skills</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <h3>Front-End</h3>
+          <div class="progress mb-3">
+            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0"
+              aria-valuemax="100">HTML</div>
+          </div>
+          <div class="progress mb-3">
+            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="70" aria-valuemin="0"
+              aria-valuemax="100">CSS</div>
+          </div>
+          <div class="progress mb-3">
+            <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="60" aria-valuemin="0"
+              aria-valuemax="100">JavaScript</div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h3>Back-End</h3>
+          <div class="progress mb-3">
+            <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0"
+              aria-valuemax="100">Node.js</div>
+          </div>
+          <div class="progress mb-3">
+            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="65" aria-valuemin="0"
+              aria-valuemax="100">Python</div>
+          </div>
+          <div class="progress mb-3">
+            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="50" aria-valuemin="0"
+              aria-valuemax="100">MySQL</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-4">Projects</h2>
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Portfolio Website</h3>
+              <p class="card-text">Just like this one.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Advanced Todo List App</h3>
+              <p class="card-text">I am particularly interested in the advanced to-do list project because it aligns with my passion for leveraging technology to enhance productivity and organization. Developing an advanced to-do list application will allow me to apply my skills in programming and software development to create a tool that can significantly improve time management and task prioritization. This project excites me because it not only challenges me to integrate various technologies and design principles but also offers the opportunity to create a solution that can have a practical impact on users' daily lives. By working on this project, I aim to deepen my understanding of user-centered design and improve my ability to develop intuitive and efficient applications.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more project sections as needed -->
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Contact Me</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3 footer">
+    <p>&copy; 2024 Abdelrahman. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz4fnFO9gybIV9+o3K7oCIOqU7ek5ki7MQT3yyeKwjqG1f5Ut0P0mc6a5F" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-qJD7eB1WT0S7YkVV0fXVnhYStHkQv7eKt3URyYpI8t91H4SzF7p4ew36h/5sykGh" crossorigin="anonymous"></script>
+  <script>
+    document.getElementById('darkModeToggle').addEventListener('click', function () {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+</body>
+
+</html>
